@@ -1,4 +1,4 @@
-export default function InformatiqueVitrine() {
+export default function Page() {
   const services = [
     {
       title: 'Nettoyage PC',
