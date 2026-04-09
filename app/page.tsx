@@ -42,19 +42,19 @@ export default function Page() {
 
   const reviews = [
     {
-      name: 
+      name: 'Client satisfait',
       rating: 5,
-      text:
+      text: 'Service sérieux, rapide et très professionnel. Mon PC est beaucoup plus fluide qu’avant.',
     },
     {
-      name: 
+      name: 'Cliente satisfaite',
       rating: 5,
-      text:
+      text: 'Montage impeccable et très bons conseils pour choisir les composants.',
     },
     {
-      name: 
-      rating: 5,
-      text: 
+      name: 'Avis vérifié',
+      rating: 4,
+      text: 'Très bonne expérience, intervention propre et explications claires.',
     },
   ];
 
@@ -108,11 +108,17 @@ export default function Page() {
 
           <div className="grid gap-4 sm:grid-cols-2">
             <div className="rounded-3xl border border-[#d8c3b2] bg-[#efe4d8] p-6 shadow-sm">
+              <p className="text-sm text-[#7a6155]">Ambiance</p>
+              <p className="mt-2 text-2xl font-semibold">Pastel, beige & brun doux</p>
             </div>
             <div className="rounded-3xl border border-[#d8c3b2] bg-[#fdfaf6] p-6 shadow-sm">
+              <p className="text-sm text-[#7a6155]">Image</p>
+              <p className="mt-2 text-2xl font-semibold">Propre, rassurante et élégante</p>
             </div>
             <div className="rounded-3xl border border-[#d8c3b2] bg-[#ead8c8] p-6 shadow-sm sm:col-span-2">
+              <p className="text-sm text-[#7a6155]">Votre futur espace visuel</p>
               <div className="mt-4 flex aspect-[16/9] items-center justify-center rounded-2xl border border-dashed border-[#b8957e] bg-white/60 text-center text-[#7a6155]">
+                Photo ou vidéo principale de vos réalisations
               </div>
             </div>
           </div>
