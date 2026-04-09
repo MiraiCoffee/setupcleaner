@@ -58,7 +58,7 @@ export default function Page() {
     },
   ];
 
-  const stars = (count: number) => '★'.repeat(count) + '☆'.repeat(5 - count);
+ const stars = (count: number) => '★'.repeat(count) + '☆'.repeat(5 - count);
 
   return (
     <div className="min-h-screen bg-[#f7f1e8] text-[#4a372d]">
